@@ -16,7 +16,7 @@ public abstract class DormantRuneforge
         new OpenApiRune()
     ];
     
-    public async Task Inscribe(string[] args)
+    public static async Task Inscribe(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
         var runes = RunesOfTheFallenCrusader.Concat(Frostmourne()).ToList();
@@ -36,5 +36,8 @@ public abstract class DormantRuneforge
         await app.RunAsync();
     }
 
-    protected abstract IEnumerable<IRune> Frostmourne();
+    protected static IEnumerable<IRune> Frostmourne()
+    {
+        yield break;
+    }
 }
