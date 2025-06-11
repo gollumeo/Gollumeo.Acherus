@@ -9,7 +9,7 @@
     <!-- 🔹 2. Package Identity -->
     <PropertyGroup>
         <PackageId>Gollumeo.Acherus.Rituals</PackageId>
-        <Version>1.0.3</Version>
+        <Version>1.0.4</Version>
         <Authors>Pierre "Golluméo" Mauriello</Authors>
     </PropertyGroup>
 
