@@ -2,17 +2,17 @@
 
 ![Icon.png](Rituals/Icon.png)
 
-> Modular, intentional, and darkly architectural — a growing collection of focused packages designed for Clean Architecture in .NET.
+> Modular, intentional, and darkly architectural—a growing collection of focused packages designed for Clean Architecture in .NET.
 
 ---
 
 ## 🧱 Philosophy
 
 **No bloated frameworks. No one-size-fits-all.**
-Just sharp, composable modules — forged in real-world projects, refined for clarity, and packaged for reuse.
+Just sharp, composable modules—forged in real-world projects, refined for clarity, and packaged for reuse.
 
 > What repeats gets extracted. What resists abstraction stays where it is.
-> Acherus is the forge — not the fortress.
+>  Acherus is not the forge—it’s the sanctum.
 
 ---
 
