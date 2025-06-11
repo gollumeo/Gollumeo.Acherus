@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <!-- 🔹 1. Runtime Targeting -->
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <OutputType>Library</OutputType>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <!-- 🔹 2. Package Identity -->
+    <PropertyGroup>
+        <PackageId>Gollumeo.Acherus.Application</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>Pierre &quot;Golluméo&quot; Mauriello</Authors>
+    </PropertyGroup>
+
+    <!-- 🔹 3. NuGet Metadata -->
+    <PropertyGroup>
+        <Description>Primitives for the Application layer in Clean Architecture. Includes a Result&lt;T&gt; implementation and more to come.</Description>
+        <PackageTags>application cleanarchitecture result gollumeo primitives</PackageTags>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageIcon>Icon.png</PackageIcon>
+    </PropertyGroup>
+
+    <!-- 🔹 4. Publish Behavior -->
+    <PropertyGroup>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <IsPackable>true</IsPackable>
+        <PackageProjectUrl>https://github.com/gollumeo/Gollumeo.Acherus</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/gollumeo/Gollumeo.Acherus</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+    </PropertyGroup>
+
+    <!-- 🔹 5. Packaged Files -->
+    <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath=""/>
+        <None Include="Icon.png" Pack="true" PackagePath=""/>
+    </ItemGroup>
+
+</Project>
